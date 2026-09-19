@@ -1,0 +1,21 @@
+/* Design tokens used by the original hosted page, reproduced for standalone use. */
+:root {
+  --ds-page: #fdfcfb;
+  --ds-raised: #f4efec;
+  --ds-ink: #251f21;
+  --ds-ink-2: #585254;
+  --ds-ink-4: #c0bebf;
+  --ds-hairline: #eae9ea;
+  --ds-teal: #73a89a;
+  --ds-red: #ed313e;
+}
+body {
+  background: var(--ds-raised);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ds-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (min-width: 900px) {
+  .file-card { padding: 24px 36px !important; }
+}
