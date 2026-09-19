@@ -1,11 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App';
-import './tokens.css';
-import './style.css';
+import { FileRouter } from '@instinct/files';
+import { App } from './App';
 
-createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+createRoot(document.getElementById('root')!).render(<FileRouter><App /></FileRouter>);
